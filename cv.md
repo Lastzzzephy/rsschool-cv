@@ -35,7 +35,17 @@ let calculateMiles = function (distance, isBusinessClass) {
 
 ## Education ##
 **Bachelor Moscow Institute of Art and Industrial**
+
+
 Designer
 
 **Stepik**
+
+
 HTML/CSS
+
+
+## Languages ##
++ Russian
++ Ukrainian 
++ English (A2)
