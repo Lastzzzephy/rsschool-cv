@@ -19,8 +19,7 @@ Hello! I'm an entry-level front-end developer with 3 years of experience in web 
 
 
 ## Code Example ##
-'''
-
+```
 let calculateMiles = function (distance, isBusinessClass) {
   let percent = 0.18;
   if (isBusinessClass) {
@@ -31,5 +30,4 @@ let calculateMiles = function (distance, isBusinessClass) {
   }
   return distance * percent;
 };
-
-'''
+```
