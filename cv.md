@@ -31,3 +31,11 @@ let calculateMiles = function (distance, isBusinessClass) {
   return distance * percent;
 };
 ```
+
+
+## Education ##
+**Bachelor Moscow Institute of Art and Industrial**
+Designer
+
+**Stepik**
+HTML/CSS
