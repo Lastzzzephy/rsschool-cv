@@ -69,7 +69,7 @@
                     <h2 class="subtitle">Projects</h2>
                     <div class="project-images">
                         <div class="project-1">
-                            <a class="project-link" href="https://lastzzzephy.github.io/rsschool-cv/">                           
+                            <a class="project-link" href="https://lastzzzephy.github.io/rsschool-cv/" target="_blank">                           
                                 <img src="./assets/Project_1.png" alt="CV">
                                 <p class="project-p">CV. HTML/CSS</p>
                             </a>
@@ -81,21 +81,45 @@
                     </div>
                 </div>
             </div>
+        </section>
             <section class="container">
-                <div class="wrapper">
+                <div class="wrapper end">
                     <div class="education" id="education">
                         <h2 class="subtitle">Education</h2>
                         <dl class="education-list">
-                            <dt class="education-termin"><b>Moscow Institute of Art and Industrial</b></dt>
+                            <dt class="education-termin">Moscow Institute of Art and Industrial</dt>
                             <dd class="education-definition">Designer </dd>
-                            <dt class="education-termin"><b>Stepik</b></dt>
+                            <dt class="education-termin">Stepik</dt>
                             <dd class="education-definition">Designer</dd>
-                            <dt class="education-termin"><b>Rolling Scopes School</b></dt>
+                            <dt class="education-termin">Rolling Scopes School</dt>
                             <dd class="education-definition">JS/FE Pre-School (in process)</dd>                                                        
                         </dl>     
-                    </div>                       
+                    </div>
+                    <div class="code" id="code">
+                        <h2 class="subtitle">Code example</h2>
+                        <pre class="code-example"><code class="code-example-text">
+let calculateMiles = function (distance, isBusinessClass) {
+ let percent = 0.18;
+ if (isBusinessClass) {
+  percent += 0.04;
+ }
+ if (distance > 3500) {
+  percent += 0.15;
+ }
+ return distance * percent;
+};
+                          </code>
+                        </pre>
+                    </div>                           
                 </div>
-            </section>                    
-    </main>             
+            </section>                       
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container container">
+            <a class="rs-link" href="https://rs.school/js/" target="_blank"><img class="footer-logo" src="./assets/Logo.svg" alt="logo"></a>
+            <a class="gh-link" href="https://github.com/Lastzzzephy" target="_blank"><img src="./assets/Git.svg" alt="logo"></a>
+            <p class="footer-p">2022</p>
+        </div>
+    </footer>             
 </body>
 </html>

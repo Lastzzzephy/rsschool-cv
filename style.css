@@ -61,7 +61,7 @@ body {
 .profile-wrapper {
     display: flex;
     align-items: center;
-    border: 1px solid #FF4D00;
+    /*border: 1px solid #FF4D00;*/
 }
 
 .profile-description {
@@ -99,7 +99,6 @@ body {
 .wrapper {
     display: flex;
     flex-wrap: nowrapпше;
-    border: 1px solid #FF4D00;
     margin-top: 100px;
 }
 
@@ -107,7 +106,7 @@ body {
 .contacts,
 .skills,
 .education {
-    border: 1px solid #FF4D00;
+    /*border: 1px solid #FF4D00;*/
     width: 345px;
 }
 
@@ -156,7 +155,7 @@ body {
 .about,
 .projects,
 .code {
-    border: 1px solid #FF4D00;
+    /*border: 1px solid #FF4D00;*/
     padding-left: 60px;
     width: 855px; 
 }
@@ -231,4 +230,41 @@ body {
 
 .education-termin:first-child {
     margin-top: 0px;
-} 
+}
+
+
+.code-example-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+pre {
+    margin: 0;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: #FF4D00;
+    height: 150px;   
+  }
+
+.end {
+    margin-bottom: 150px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;
+}
