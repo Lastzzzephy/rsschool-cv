@@ -79,10 +79,23 @@ body {
 }
 
 
-.contacts {
-    width: 345px;
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrapпше;
     border: 1px solid #FF4D00;
     margin-top: 100px;
+}
+
+
+.contacts {
+    border: 1px solid #FF4D00;
+    width: 345px;
 }
 
 
@@ -112,3 +125,31 @@ body {
 .contacts-list li:first-child {
     margin-bottom: 15px;
 }
+
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+
+.contact-link:hover {
+    color: #FF4D00;
+}
+
+
+.about {
+    border: 1px solid #FF4D00;
+    padding-left: 60px;
+    width: 855px; 
+}
+
+
+.about-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400; 
+}
+
+
