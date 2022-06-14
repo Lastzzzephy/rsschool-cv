@@ -47,6 +47,12 @@ body {
 }
 
 
+.avatar {
+    width: 345px;
+    height: auto;
+}
+
+
 .profile-wrapper {
     display: flex;
     align-items: center;
@@ -141,7 +147,8 @@ body {
 }
 
 
-.about {
+.about,
+.projects {
     border: 1px solid #FF4D00;
     padding-left: 60px;
     width: 855px; 
@@ -163,4 +170,10 @@ body {
 
 .skills-list li:last-child {
     padding-bottom: 0px;
+}
+
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
 }
