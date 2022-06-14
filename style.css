@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    background-color: #131313;
+    color: white;
+}
+  
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: calc(1em / 50);
+    font-family: 'Inter', sans-serif;
+    padding: 0 15px;
+    line-height: 70px;
+    transition: .3s;
+}
+
+
+.nav-link:hover {
+    color: #FF4D00;
+}
+
+
+.avatar {
+    width: 345px;
+    height: auto;
+}
+
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid #FF4D00;*/
+}
+
+.profile-description {
+    padding-left: 60px;
+}
+
+
+.main-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 6.4em;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: calc(1em / 100);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+
+.profile-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrapпше;
+    margin-top: 100px;
+}
+
+
+.contacts,
+.skills,
+.education {
+    /*border: 1px solid #FF4D00;*/
+    width: 345px;
+}
+
+
+.subtitle {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.5em;
+    line-height: 39px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: calc(1em / 100);
+    color: #FF4D00;    
+}
+
+
+.contacts-list,
+.skills-list {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contacts-list li:first-child {
+    margin-bottom: 15px;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+
+.contact-link:hover {
+    color: #FF4D00;
+}
+
+
+.about,
+.projects,
+.code {
+    /*border: 1px solid #FF4D00;*/
+    padding-left: 60px;
+    width: 855px; 
+}
+
+
+.about-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400; 
+}
+
+
+.skills-item {
+    padding-bottom: 15px;
+}
+
+
+.skills-list li:last-child {
+    padding-bottom: 0px;
+}
+
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project-link {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+
+.project-link:hover {
+    color: #FF4D00;
+}
+
+
+.project-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400; 
+}
+
+
+.code {
+    justify-content: flex-end;
+}
+
+.education-definition{
+   margin: 10px 0 10px 0;
+}
+
+
+.education-list {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;     
+}
+
+
+.education-termin {
+    margin-top: 25px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.education-termin:first-child {
+    margin-top: 0px;
+}
+
+
+.code-example-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+pre {
+    margin: 0;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: #FF4D00;
+    height: 150px;   
+  }
+
+.end {
+    margin-bottom: 150px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;
+}
