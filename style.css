@@ -177,3 +177,22 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+.project-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.project-link:hover {
+    color: #FF4D00;
+}
+
+
+.project-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400; 
+}
