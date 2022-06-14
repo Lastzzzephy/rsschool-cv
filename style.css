@@ -45,16 +45,29 @@ body {
 }
 
 
-.profile {
-    display: grid;
-    grid-template-columns: 345px 1fr;
-    margin-top: 50px;
-    column-gap: 60px;
+.profile-wrapper {
+    display: flex;
+    align-items: center;
 }
+
+.profile-description {
+    padding-left: 60px;
+}
+
 
 .main-title {
     font-family: 'Comfortaa', cursive;
     font-size: 6.4em;
-    letter-spacing: calc(1em / 100);
+    line-height: 72px;
     text-transform: uppercase;
+    letter-spacing: calc(1em / 100);
+    margin-bottom: 20px;
+}
+
+
+.profile-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 19px;
 }
