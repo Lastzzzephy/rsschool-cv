@@ -43,3 +43,18 @@ body {
 .nav-link:hover {
     color: #FF4D00;
 }
+
+
+.profile {
+    display: grid;
+    grid-template-columns: 345px 1fr;
+    margin-top: 50px;
+    column-gap: 60px;
+}
+
+.main-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 6.4em;
+    letter-spacing: calc(1em / 100);
+    text-transform: uppercase;
+}
