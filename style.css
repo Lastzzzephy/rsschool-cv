@@ -209,3 +209,26 @@ body {
 .code {
     justify-content: flex-end;
 }
+
+.education-definition{
+   margin: 10px 0 10px 0;
+}
+
+
+.education-list {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 22px;
+    font-weight: 400;     
+}
+
+
+.education-termin {
+    margin-top: 25px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.education-termin:first-child {
+    margin-top: 0px;
+} 
