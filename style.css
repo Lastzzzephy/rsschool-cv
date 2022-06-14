@@ -93,7 +93,8 @@ body {
 }
 
 
-.contacts {
+.contacts,
+.skills {
     border: 1px solid #FF4D00;
     width: 345px;
 }
@@ -111,7 +112,8 @@ body {
 }
 
 
-.contacts-list {
+.contacts-list,
+.skills-list {
     list-style: none;
     font-family: 'Inter', sans-serif;
     font-size: 1.6em;
@@ -149,7 +151,16 @@ body {
 .about-p {
     font-family: 'Inter', sans-serif;
     font-size: 1.6em;
+    line-height: 22px;
     font-weight: 400; 
 }
 
 
+.skills-item {
+    padding-bottom: 15px;
+}
+
+
+.skills-list li:last-child {
+    padding-bottom: 0px;
+}
